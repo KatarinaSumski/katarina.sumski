@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: hsla(7, 4%, 50%, 1);
+            }
+
+            #naslovvideo {
+                background-color: hsla(12, 16%, 82%, 0.5);
+                width: 20%;
+                height: 100px;
+                padding: 0px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: initial;
+                font-family: Impact;
+                letter-spacing: 2px;
+                border-style: dashed;
+                border-width: 10px 0px 10px 0px ;
+                border-radius: 30px;
+                border-color:  rgb(97, 89, 88) ;
+                box-sizing: border-box;
+            }
+
+            h1 {
+                color: rgb(97, 89, 88);
+                text-align: center;
+                padding: 8px;
+                font-size: 60px;
+                margin: 0px;
+
+            }
+
+            #ekran {
+                background-image:url("videoslike/film.jpg");
+                opacity: 0.8;
+                width: 100%;
+                height: 540px;
+                border-radius: 100px;
+                
+                
+                background-position: center;
+                background-attachment: fixed;
+                
+            }
+
+            #video {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+        <div id=naslovvideo>
+            <h1><ins>Video</ins></h1>
+        </div>
+
+        <br>
+
+        <div id=ekran>
+            <video width="720" height="480" controls id="video" >
+                <source src="video/video.mp4/" type="video/mp4"/>
+            </video>
+
+        </div>
+    </body>
+</html>
